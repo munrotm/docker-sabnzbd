@@ -15,7 +15,7 @@ docker create --name=sabnzbd -v /etc/localtime:/etc/localtime:ro -v <path to dat
 
 **Parameters**
 
-* `-p 8080` - http port for the webui
+* `-p 8081` - http port for the webui
 * `-p 9090` - https port for the webui *see note below*
 * `-v /etc/localhost` for timesync - *optional*
 * `-v /config` - local path for sabnzbd config files
