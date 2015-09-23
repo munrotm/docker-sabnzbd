@@ -28,7 +28,7 @@ rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 VOLUME /config /downloads /incomplete-downloads
 
 # expose ports
-EXPOSE 8080 9090
+EXPOSE 8081 9090
 
 # adding custom files
 ADD services/ /etc/service/
