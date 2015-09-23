@@ -25,7 +25,7 @@ apt-get clean -y && \
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # set volumes
-VOLUME /config /downloads /incomplete-downloads
+VOLUME /config /completed_downloads /incomplete_downloads /watch
 
 # expose ports
 EXPOSE 8081 9090
